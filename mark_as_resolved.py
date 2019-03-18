@@ -36,7 +36,7 @@ def main ():
 			print('Failed. Something went wrong. Please contact System Administrator.')
 
 
-# get token for useing SentinelOne api
+# get token for useing SentinelOne api.
 def get_token(url, obj):
 	url    = url + "/web/api/v2.0/users/login"
 	method = "POST"
